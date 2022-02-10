@@ -1,7 +1,4 @@
 
-# This program plots a multilayer pie chart with the following data. The data shows the expenditure on the books of four given subjects from the year 1996 to 1998. 
-
- 
 '''                       
               Expenditure On Books : 
 
@@ -10,7 +7,9 @@
         Economis - 5200     Econimics - 8000
         Commerce - 10000    Commerce - 14000
         Math - 5000         Math - 7000
-        Language - 6000     Language - 6000                                                                     '''
+        Language - 6000     Language - 6000                                                                     
+
+'''
 
 
 import matplotlib.pyplot as plt
@@ -19,7 +18,7 @@ import matplotlib.pyplot as plt
 plt.style.use('ggplot')
 
 
-# Containt of the data :
+# Data :
     
 labels = ['Econimics', 'Commerce', 'Math', 'Languages']
 
